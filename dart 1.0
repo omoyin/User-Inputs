@@ -1,0 +1,10 @@
+import 'dart:io';
+
+
+void main() {
+
+//input-output; to let the user input something
+print('Enter you name:');
+String username = stdin.readLineSync();
+print('hi, ${username}');
+}
