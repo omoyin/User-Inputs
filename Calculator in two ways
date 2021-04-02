@@ -1,0 +1,28 @@
+import 'dart:io';
+
+
+void main() {
+
+//calculator
+print('Enter the first number:');
+String firstNum = stdin.readLineSync();
+print('Enter the second number:');
+String secondNum = stdin.readLineSync();
+
+
+print(
+int.parse(firstNum) * int.parse(secondNum)
+);
+
+//calculator too
+print('first number?:');
+int num1 = int.parse(stdin.readLineSync());
+print('second number?:');
+int num2 = int.parse(stdin.readLineSync());
+
+print(num1 * num2);
+print(num1 + num2);
+print(num1 - num2);
+print(num1 / num2);
+print(num1 % num2);
+}
